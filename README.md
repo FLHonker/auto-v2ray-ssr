@@ -15,3 +15,5 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ## 3. BBR加速
 
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
+
+* BBR-plus版本（CentOS7）参考[https://github.com/cx9208/bbrplus]
