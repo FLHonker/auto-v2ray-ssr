@@ -11,7 +11,8 @@ sudo apt install wget
 ### 2. 自动化脚本部署（root权限下）
 
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+#（已喝茶） wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/kawa11/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
 ```
 
 > 注意：若链接失效，您也也可下载本目录下的[ssr.h](https://raw.githubusercontent.com/FLHonker/autoVPS-ssr/652dca3ea530082cfe3db9349cb501162f5c7563/ssr.sh)后运行。
