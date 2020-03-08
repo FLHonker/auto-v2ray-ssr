@@ -21,6 +21,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/FLHonker/auto-v
 ```
 
 ## 3. Trojan
+
+此脚本会将您的Ubuntu系统升级至Debian10，请谨慎！
 ```
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnrosen1/trojan-gfw-script/master/vps.sh)"
 ```
