@@ -14,7 +14,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/kawa11/doubi/ma
 ## 2. V2ray
 
 ```
-
+wget -N --no-check-certificate https://raw.githubusercontent.com/FLHonker/auto-v2ray-ssr/master/v2ray_install.sh && chmod +x v2ray_install.sh && sudo bash v2ray_install.sh
 ```
 
 ## 3. Trojan
@@ -27,5 +27,5 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnrosen1/trojan-g
 ```
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
 ```
-> ssr.h 脚本中也有安装BBR的多种选项。（推荐）
+> ssr.sh/v2ray_install.sh/Trojan 脚本中也有安装BBR的多种选项。（推荐）
 * BBR-plus版本（CentOS7）参考[https://github.com/cx9208/bbrplus]
