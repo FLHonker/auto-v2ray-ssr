@@ -24,11 +24,11 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/FLHonker/auto-v
 
 此脚本会将您的Ubuntu系统升级至Debian10，请谨慎！
 ```
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnrosen1/trojan-gfw-script/master/vps.sh)"
+sudo bash <(curl -s -L https://github.com/V2RaySSR/Trojan/raw/master/Trojan.sh)
 ```
 or ours:
 ```
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/FLHonker/auto-v2ray-ssr/master/trojan_install.sh)"
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/FLHonker/auto-v2ray-ssr/master/Trojan.sh)"
 ```
 
 ## 4. BBR加速：
