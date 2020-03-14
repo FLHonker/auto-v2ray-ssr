@@ -19,7 +19,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/FLHonker/auto-v
 ```
 wget -N --no-check-certificate https://raw.githubusercontent.com/FLHonker/auto-v2ray-ssr/master/v2ray_install.sh && chmod +x v2ray_install.sh && bash v2ray_install.sh
 ```
-多用户多协议管理面板`v2-ui`
+多用户多协议管理面板`[v2-ui][2]`
 ```
 bash <(curl -Ls https://blog.sprov.xyz/v2-ui.sh)
 ```
@@ -42,3 +42,5 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ```
 > ssr.sh/v2ray_install.sh/Trojan 脚本中也有安装BBR的多种选项。（推荐）
 * BBR-plus版本（CentOS7）参考[https://github.com/cx9208/bbrplus]
+
+[2]: https://github.com/sprov065/v2-ui
