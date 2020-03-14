@@ -19,7 +19,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/FLHonker/auto-v
 ```
 wget -N --no-check-certificate https://raw.githubusercontent.com/FLHonker/auto-v2ray-ssr/master/v2ray_install.sh && chmod +x v2ray_install.sh && bash v2ray_install.sh
 ```
-多用户多协议管理面板`[v2-ui][2]`
+多用户多协议管理面板[`v2-ui`][2]
 ```
 bash <(curl -Ls https://blog.sprov.xyz/v2-ui.sh)
 ```
