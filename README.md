@@ -35,6 +35,11 @@ or ours:
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/FLHonker/auto-v2ray-ssr/master/Trojan.sh)"
 ```
 
+Trojan panel：
+```
+wget -N --no-check-certificate "https://raw.githubusercontent.com/V2RaySSR/Trojan_Panel/master/trojan_panel.sh" && chmod +x trojan_panel.sh && ./trojan_panel.sh
+```
+
 ## 4. BBR加速：
 
 ```
