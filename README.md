@@ -24,6 +24,12 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/FLHonker/auto-v
 bash <(curl -Ls https://blog.sprov.xyz/v2-ui.sh)
 ```
 
+### VLESS
+
+```
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh" && chmod +x install.sh && bash install.sh
+```
+
 ## 3. Trojan
 
 此脚本会将您的Ubuntu系统升级至Debian10，请谨慎！
