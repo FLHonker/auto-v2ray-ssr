@@ -46,7 +46,13 @@ Trojan panel：
 wget -N --no-check-certificate "https://raw.githubusercontent.com/V2RaySSR/Trojan_Panel/master/trojan_panel.sh" && chmod +x trojan_panel.sh && ./trojan_panel.sh
 ```
 
-## 4. BBR加速：
+## 4. 7合一安装脚本 - Xray,v2ray,Trojan,Trojango,etc
+
+```
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+```
+
+## 5. BBR加速：
 
 ```
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
